@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F681F9C9-D467-470C-BAF1-0CAA066BBAF0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CoreDataExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>76DB22EE-9032-4C65-9DE1-945A03ED0178</key>
+		<string>https://github.com/Kpitolin/CoreDataExample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CoreDataExample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>76DB22EE-9032-4C65-9DE1-945A03ED0178</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Kpitolin/CoreDataExample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>76DB22EE-9032-4C65-9DE1-945A03ED0178</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>76DB22EE-9032-4C65-9DE1-945A03ED0178</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CoreDataExample</string>
+		</dict>
+	</array>
+</dict>
+</plist>
