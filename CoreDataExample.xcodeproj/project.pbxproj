@@ -22,6 +22,7 @@
 		0AF5AB861945F74D00B3B340 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF5AB6A1945F74D00B3B340 /* CoreData.framework */; };
 		0AF5AB8E1945F74D00B3B340 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AF5AB8C1945F74D00B3B340 /* InfoPlist.strings */; };
 		0AF5AB901945F74D00B3B340 /* CoreDataExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF5AB8F1945F74D00B3B340 /* CoreDataExampleTests.m */; };
+		0AF5AB9B1945F9E500B3B340 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF5AB9A1945F9E500B3B340 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		0AF5AB8B1945F74D00B3B340 /* CoreDataExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataExampleTests-Info.plist"; sourceTree = "<group>"; };
 		0AF5AB8D1945F74D00B3B340 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0AF5AB8F1945F74D00B3B340 /* CoreDataExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataExampleTests.m; sourceTree = "<group>"; };
+		0AF5AB9A1945F9E500B3B340 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = CoreDataExample/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		0AF5AB581945F74D00B3B340 = {
 			isa = PBXGroup;
 			children = (
+				0AF5AB9C1945F9E900B3B340 /* View */,
 				0AF5AB6C1945F74D00B3B340 /* CoreDataExample */,
 				0AF5AB891945F74D00B3B340 /* CoreDataExampleTests */,
 				0AF5AB631945F74D00B3B340 /* Frameworks */,
@@ -118,7 +121,7 @@
 				0AF5AB751945F74D00B3B340 /* AppDelegate.h */,
 				0AF5AB761945F74D00B3B340 /* AppDelegate.m */,
 				0AF5AB7B1945F74D00B3B340 /* Images.xcassets */,
-				0AF5AB781945F74D00B3B340 /* CoreDataExample.xcdatamodeld */,
+				0AF5AB991945F99300B3B340 /* Core Data Model */,
 				0AF5AB6D1945F74D00B3B340 /* Supporting Files */,
 			);
 			path = CoreDataExample;
@@ -151,6 +154,22 @@
 				0AF5AB8C1945F74D00B3B340 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AF5AB991945F99300B3B340 /* Core Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AF5AB781945F74D00B3B340 /* CoreDataExample.xcdatamodeld */,
+			);
+			name = "Core Data Model";
+			sourceTree = "<group>";
+		};
+		0AF5AB9C1945F9E900B3B340 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AF5AB9A1945F9E500B3B340 /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +249,7 @@
 			files = (
 				0AF5AB711945F74D00B3B340 /* InfoPlist.strings in Resources */,
 				0AF5AB7C1945F74D00B3B340 /* Images.xcassets in Resources */,
+				0AF5AB9B1945F9E500B3B340 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
